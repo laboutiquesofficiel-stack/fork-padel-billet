@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Retrouver mon billet · FORK PADEL CUP</title>
+  <meta name="description" content="Tu as perdu ton billet pour la FORK PADEL CUP ? Indique ton e-mail : on te le renvoie aussitôt.">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src https://jkauoxpsmtaowvlxnpgr.supabase.co; img-src 'self' data:; base-uri 'none'; form-action 'self'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#C4521F">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <header class="top">
+      <p class="kicker">FORK PADEL CUP</p>
+      <h1>Retrouver mon billet</h1>
+    </header>
+    <div class="body">
+      <p>Tu as perdu l'e-mail avec ton billet ? Indique l'adresse e-mail utilisée à l'inscription : on te renvoie ton billet tout de suite.</p>
+      <form id="form" novalidate>
+        <label for="email">Ton e-mail</label>
+        <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required placeholder="prenom@exemple.fr">
+        <button type="submit" id="submit">Recevoir mon billet</button>
+      </form>
+      <p id="msg" class="msg" role="status" aria-live="polite" hidden></p>
+      <ul class="tips">
+        <li>Si ton équipe n'a pas encore payé, tu reçois à la place les infos de virement.</li>
+        <li>L'e-mail peut arriver dans tes <b>spams</b> (courrier indésirable) : pense à regarder.</li>
+        <li>Ton QR code est personnel et obligatoire pour entrer : enregistre ton billet dans tes photos.</li>
+      </ul>
+      <p class="small">Une question ? Instagram <a href="https://www.instagram.com/fork__off/">@fork__off</a> ou <a href="mailto:forkofficiel@gmail.com">forkofficiel@gmail.com</a></p>
+    </div>
+  </main>
+</body>
+</html>
